@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+h1 {
+  background-color: #1a3c5e;
+  color: white;
+  padding: 20px 40px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.form-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #1a3c5e;
+  border-bottom: 2px solid #1a3c5e;
+  padding-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #1a3c5e;
+}
+
+.btn-primary {
+  background-color: #1a3c5e;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #15324f;
+}
+
+.user-card {
+  background: white;
+  padding: 20px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info h3 {
+  font-size: 16px;
+  color: #1a3c5e;
+  margin-bottom: 4px;
+}
+
+.user-info p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  background-color: #e8f0fe;
+  color: #1a3c5e;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-edit:hover {
+  background-color: #d0e1fc;
+}
+
+.btn-delete {
+  background-color: #fdecea;
+  color: #c0392b;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-delete:hover {
+  background-color: #f5c6c2;
+}
